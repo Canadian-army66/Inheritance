@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Clicker myClicker = new Clicker("E", "Cookie Clicker"); //assigns variables to Title and Esrb
+
+            Console.WriteLine(myClicker.Describe()); //prints Describe
+            myClicker.PlayGame(); //Prints PlayGame 
         }
     }
 }
